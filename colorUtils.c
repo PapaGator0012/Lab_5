@@ -41,12 +41,17 @@ int toGrayScaleBrightness(int r, int g , int b ){
   
   if(r>g && r>b ){
     max=r;
+    return r;
   }
 
 else if(g>r && g>b){
   max=g;
+  return g;
 }
-
+else{
+  max=b;
+  return b;
+}
 
 }
 
