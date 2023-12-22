@@ -226,6 +226,10 @@ int main(int argc, char **argv) {
 r=10,g=16,b=50;
 expectedResult=22;
 printf("testing: toSepiaGreen(%d,%d,%d)",r,g,b);
+result=toSepiaGreen(r,g,b);
+if(result!=expectedResult){
+  printf("failed | value returned %d | expected %d ",result,expectedResult);
+}
 
   printf("Number Test Cases Passed: %6d\n", numPassed);
   printf("Number Test Cases Failed: %6d\n", numFailed);
