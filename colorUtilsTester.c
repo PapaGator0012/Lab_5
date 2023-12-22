@@ -179,6 +179,8 @@ int main(int argc, char **argv) {
   printf("TESTING: toGrayScaleAverage(%d,%d,%d): ", r, g, b);
   result = toGrayScaleAverage(r, g, b);
   //TODO: this test case will fail, why?
+  
+  // Ans: becasue the expected resullt is given to be 60 , possible code issues
   if(result != expectedResult) {
     printf("FAILED: toGrayScaleAverage returned %d, expected %d\n", result, expectedResult);
     numFailed++;
@@ -186,6 +188,7 @@ int main(int argc, char **argv) {
     printf("PASSED\n");
     numPassed++;
   }
+   // HERE ! 
 
   //TODO: add your test cases here:
   //      -at least one for each function
