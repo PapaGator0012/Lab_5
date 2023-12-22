@@ -212,6 +212,7 @@ int main(int argc, char **argv) {
   r=10,g=60,b=54;
   expectedResult=49;
  printf("testing | toGrayScaleLuminosity(%d | %d | %d )",r,g,b);
+ result=toGrayScaleLuminosity(r,g,b);
  
 
 
