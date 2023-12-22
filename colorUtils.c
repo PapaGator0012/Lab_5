@@ -18,3 +18,4 @@ int toGrayScaleAverage(int r, int g, int b) {
 
 //making a min function as instructed 
 
+int min( int r, int g , int b )
