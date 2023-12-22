@@ -118,6 +118,9 @@ int blue(int r,int g,int b){
   if(b>255){
     b=255;
   }
+  else{
+    return round(b);
+  }
 }
 
 
