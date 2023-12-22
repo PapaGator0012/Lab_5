@@ -25,7 +25,9 @@ int min( int r, int g , int b ){
     printf("%d",r);
    } 
 
-
+   else if (min>g && b>g){
+    printf("%d",g);
+   }
 
 
 
