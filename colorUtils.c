@@ -35,5 +35,8 @@ int min( int r, int g , int b ){
 
 //making toGrayScaleBrightness
 
+int toGrayScaleBrightness(int r, int g , int b ){
+  
+}
 
 }
