@@ -111,6 +111,11 @@ int sepiagreen(int r, int g , int b ){
   }
 }
 
+// blue
+
+int blue(int r,int g,int b){
+  
+}
 
 
 }
