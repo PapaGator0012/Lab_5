@@ -241,6 +241,21 @@ else{
 r=100;g=160,b=5;
 expectedResult=113;
 printf("testing: toSepiaBlue(%d,%d,%d)",r,g,b,);
+result=toSepiaBlue(r,g,b);
+if(result!=expectedResult){
+  printf("failed : speiablue returned %d | expected %d ",result,expectedResult);
+  numFailed++;
+}
+else{
+  printf("passed");
+  numPassed++;
+}
+
+
+
+
+
+
   printf("Number Test Cases Passed: %6d\n", numPassed);
   printf("Number Test Cases Failed: %6d\n", numFailed);
   printf("Percent Passed:           %6.2f\n", 100.0 * numPassed / (numPassed + numFailed));
