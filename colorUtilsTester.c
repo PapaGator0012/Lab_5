@@ -251,6 +251,13 @@ else{
   numPassed++;
 }
 
+//sepia red
+
+r=100,g=160,b=5;
+expectedResult=163;
+
+printf("testing | sepiablue(%d,%d,%d)",r,g,b);
+result=toSepiaRed(r,g,b);
 
 
 
