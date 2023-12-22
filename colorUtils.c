@@ -21,7 +21,9 @@ int toGrayScaleAverage(int r, int g, int b) {
 int min( int r, int g , int b ){
 
    int min= r;
-   
+   if(min<g && min<b){
+    printf("%d",r);
+   } 
 
 
 
