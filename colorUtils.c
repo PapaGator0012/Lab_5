@@ -94,6 +94,9 @@ int toGrayScaleLuminosity(int r, int g , int b){
     if(r>255){
       r=255; 
     }
+    else{
+      return round(r);
+    }
   }
 
 }
