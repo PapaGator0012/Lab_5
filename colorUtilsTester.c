@@ -207,6 +207,12 @@ int main(int argc, char **argv) {
     printf("passed");
     numPassed++;
   }
+  //grayscaleluminsoty
+
+  r=10,g=60,b=54;
+  expectedResult=49;
+
+
 
   printf("Number Test Cases Passed: %6d\n", numPassed);
   printf("Number Test Cases Failed: %6d\n", numFailed);
