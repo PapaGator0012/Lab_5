@@ -114,6 +114,7 @@ int sepiagreen(int r, int g , int b ){
 // blue
 
 int blue(int r,int g,int b){
+  b=0.272*r+0.534*g+0.131*b;
   
 }
 
