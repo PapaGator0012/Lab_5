@@ -56,13 +56,20 @@ else{
   return b;
 }
 
-return ( max + min )/2;
+
 }
 
+//find the minium value 
 
-// fucntion to find the minium value 
-
-int min
+if(min>g && b>g){
+  min=g;
+}
+else if(min>b && g>b){
+  min=b;
+}
+else{
+  min=r;
+}
 
 
 
