@@ -260,6 +260,12 @@ printf("testing | sepiablue(%d,%d,%d)",r,g,b);
 result=toSepiaRed(r,g,b);
 if(result!=toSepiaRed){
   printf("failed: sepiared returnd %d | expected %d ",result,expectedResult);
+  numFailed++;
+
+}
+else{
+  printf("passed");
+  numPassed++;
 }
 
 
