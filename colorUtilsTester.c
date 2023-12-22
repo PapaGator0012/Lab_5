@@ -215,6 +215,10 @@ int main(int argc, char **argv) {
  result=toGrayScaleLuminosity(r,g,b);
  if(result!=expectedResult){
   printf("failed: toGrayScaleLuminosity return %d , expected %d ",result,expectedResult);
+  numFailed++; 
+ }else{
+  printf("passed");
+  numPassed++;
  }
 
 
