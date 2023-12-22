@@ -82,4 +82,7 @@ int toGrayScaleLuminosity(int r, int g , int b){
 }
 
 
+
+
+// for red sepia 
 }
