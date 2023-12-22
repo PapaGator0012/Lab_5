@@ -99,4 +99,9 @@ int toGrayScaleLuminosity(int r, int g , int b){
     }
   }
 
+//sepia green
+
+int sepiagreen(int r, int g , int b ){
+  
+}
 }
