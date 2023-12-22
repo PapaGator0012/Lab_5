@@ -229,6 +229,11 @@ printf("testing: toSepiaGreen(%d,%d,%d)",r,g,b);
 result=toSepiaGreen(r,g,b);
 if(result!=expectedResult){
   printf("failed | value returned %d | expected %d ",result,expectedResult);
+  numFailed++;
+}
+else{
+  printf("passed");
+  numPassed++;
 }
 
   printf("Number Test Cases Passed: %6d\n", numPassed);
