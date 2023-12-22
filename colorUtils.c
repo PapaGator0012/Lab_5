@@ -1,4 +1,7 @@
 
+// **  Author : Hassam   **
+
+
 #include "colorUtils.h"
 #include <math.h>
 double rgbIntToFloat(int c) {
@@ -84,5 +87,13 @@ int toGrayScaleLuminosity(int r, int g , int b){
 
 
 
-// for red sepia 
+// toRedSepia fun 
+  
+  int toRedSepia(int r;int g;int b){
+    r=0.393 * r  + 0.769 * g + 0.189 * b;
+    if(r>255){
+      r=255; 
+    }
+  }
+
 }
