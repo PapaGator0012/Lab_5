@@ -202,6 +202,10 @@ int main(int argc, char **argv) {
   result=min(r,g,b);
   if(result!=expectedResult){
     printf("failed: min returned %d , it was expected to be %d ",result,expectedResult);
+    numFailed++;
+  } else{
+    printf("passed");
+    numPassed++;
   }
 
   printf("Number Test Cases Passed: %6d\n", numPassed);
