@@ -39,8 +39,11 @@ int toGrayScaleBrightness(int r, int g , int b ){
 
   int max= r;
   
+
+  int min=r;
   if(r>g && r>b ){
     max=r;
+    
     return r;
   }
 
@@ -53,6 +56,14 @@ else{
   return b;
 }
 
+return ( max + min )/2;
 }
+
+
+// fucntion to find the minium value 
+
+int min
+
+
 
 }
