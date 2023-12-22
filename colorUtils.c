@@ -70,7 +70,8 @@ else if(min>b && g>b){
 else{
   min=r;
 }
-
+// using instructed gra scale technieuq
+printf("%d",(max+min)/2);
 
 
 }
