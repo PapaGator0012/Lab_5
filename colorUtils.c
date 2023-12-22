@@ -75,4 +75,9 @@ printf("%d",(max+min)/2);
 
 // makiking toGrayScaleLuminosity function
 
+int toGrayScaleLuminosity(int r, int g , int b){
+  
+}
+
+
 }
