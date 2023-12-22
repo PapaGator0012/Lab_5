@@ -73,5 +73,6 @@ else{
 // using instructed gra scale technieuq
 printf("%d",(max+min)/2);
 
+// makiking toGrayScaleLuminosity function
 
 }
